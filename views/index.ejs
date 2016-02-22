@@ -8,40 +8,59 @@
 </head >
 <body >
 
-<h1>You Like PIZZA!</h1>
+    <h1>You Like PIZZA!</h1>
 
-<form action="" method="POST">
+    <form action="" method="POST">
 
-    <h3>Choose a Size</h3>
-    <select name="dropdown" id="size" >
-        <% options.size.forEach(function(x){ %>
-        <option value='' data-price="0" ><%= x %></option >
-        <% }) %>
-    </select >
+        <h3>Choose a Size</h3>
+        <select name="dropdown" id="size" >
 
-    <h3>Choose a Crust</h3>
-    <select name="dropdown" id="crust" >
-        <% options.crust.forEach(function(x){ %>
-        <option value='' data-price="0" ><%= x %></option >
-        <% }) %>
-    </select >
+            <% options.size.forEach(function(x){ %>
 
-    <h3>Choose a Sauce</h3>
-    <select name="dropdown" id="sauce" >
-        <% options.sauce.forEach(function(x){ %>
             <option value='' data-price="0" ><%= x %></option >
-        <% }) %>
-    </select >
 
-    <h3>Choose a Topping</h3>
-    <div id="toppings">
-        <% options.top.forEach(function(x){ %>
-            <input type="radio" name="topping" ><%= x %>
-        <% }); %>
-    </div>
+            <% }) %>
 
-    <input type="submit" value="Order" >
-</form >
+        </select >
+
+
+        <h3>Choose a Crust</h3>
+        <select name="dropdown" id="crust" >
+
+            <% options.crust.forEach(function(x){ %>
+
+            <option value='' data-price="0" ><%= x %></option >
+
+            <% }) %>
+
+        </select >
+
+
+        <h3>Choose a Sauce</h3>
+        <select name="dropdown" id="sauce" >
+
+            <% options.sauce.forEach(function(x){ %>
+
+                <option value='' data-price="0" ><%= x %></option >
+
+            <% }) %>
+
+        </select >
+
+
+        <h3>Choose a Topping</h3>
+        <div id="toppings">
+
+            <% options.top.forEach(function(x){ %>
+
+                <input type="radio" name="topping" ><%= x %>
+
+            <% }); %>
+
+        </div>
+
+        <input type="submit" value="Order" >
+    </form >
 
 <script type="text/javascript" src="js/order-form.js"></script >
 </body >
