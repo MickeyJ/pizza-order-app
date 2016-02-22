@@ -1,0 +1,43 @@
+{
+
+    "size": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
+
+    "crust": [
+      "White",
+      "Wheat",
+      "Gluten-Free"
+    ],
+
+    "sauce": [
+      "Robust Tomato",
+      "Spicy BBQ",
+      "Creamy Cream"
+    ],
+
+    "top": [
+      "Sausage",
+      "Pepperoni",
+      "Bacon",
+      "Salami",
+      "Ham",
+      "Chicken",
+      "Feta Cheese",
+      "Soy Cheese",
+      "Banana Peppers",
+      "Jalapeño Peppers",
+      "Onion",
+      "Olives",
+      "Pineapple",
+      "Mushroom"
+    ],
+
+    "other": {
+      "xtraC": "Extra Cheese",
+      "bread": "Bread Sticks"
+    }
+
+}
